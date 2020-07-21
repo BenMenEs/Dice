@@ -1,0 +1,47 @@
+#If 24 hours have not passed
+timer-false: "Please, wait 24 hours"
+
+#Min bet
+min-bet: 100
+#Max bet
+max-bet: 1000
+
+#If sender not instance Player
+console: "This command can be executed only in game"
+
+#Events open
+#Win message
+# {BET} - bet
+# {WINNED} - winned summ
+winned: "You have successfully winned {WINNED}"
+#Loose message
+# {LOOSED} - loosed summ
+loosed: "You have loosed {LOOSED}"
+#Error message
+error: "This command can be executed only one time in 24 hours"
+#Events close
+
+#Title
+df-title: "Dice"
+#Label description
+df-l-description: "Enter your bet. If you win, you get your money back * 2x!. Else you will loose your money."
+#Input description
+df-i-description: "Input your bet"
+#Input text
+df-i--description: "Here your bet"
+#Slider description
+df-s-description: "Choose win chance\n5 - 2x\n10 - 1.75x\n15 - 1.50x\n20 - 1.25x"
+#Empty input
+df-e-i: "Enter your bet!"
+#Input is not number
+df-n-i: "Enter your bet in numbers"
+#If bet < min-bet
+# {MIN} - min-bet
+df-mb: "Your bet can't be smaller than min-bet: {MIN}"
+#If bet > max-bet
+# {MAX} - max bet
+df-mmb: "Your bet can't be bigger than max-bet: {MAX}"
+#The player has no money
+# {BET} - bet
+# {MONEY} - player money
+df-m: "You do not have enought money! Your money: {MONEY}. You need: {BET}"
