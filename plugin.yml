@@ -3,7 +3,7 @@ main: BenMenEs\Dice\Main
 version: 0.0.1
 api: 3.0.0
 author: BenMenEs
-website: github.com/benmenes/dice
+website: github.com/BenMenEs/Dice
 permissions:
   dice.cmd:
     description: Allow to use dice command
